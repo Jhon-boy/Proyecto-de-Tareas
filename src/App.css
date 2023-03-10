@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.App{
+  text-align: center;
+  height: 100vh;
+  transition: 0.3s;
+}
+
+.App.dark {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+.toogleDark {
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.dark .toogleDark{
+  background-color: black;
+  color: yellow;
+}
