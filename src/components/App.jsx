@@ -13,7 +13,7 @@ const App = () => {
   useEffect(() => {
     // const config = JSON.parse(localStorage.getItem("config"));
     // setDark(config.theme);
-    setDark(false);
+    setDark(false);  
   }, []);
 
   /**
